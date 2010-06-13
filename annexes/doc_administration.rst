@@ -53,7 +53,7 @@ En tant que srveasy::
 	$ easy_install vobject
 	$ cd ..
 	$ tar -xzf easytimetable.tar.gz
-	$ cd easytimetable
+	$ cd easytimetable/easytimetable/
 	$ python manage.py syncdb --noinput
 	$ easy_install gunicorn
 	$ gunicorn_django -D -w 5
@@ -197,7 +197,7 @@ Le projet est maintenant installé, il est maintenant nécessaire de l'initialis
 Les étapes décrites ci dessous ont pour effet de créer la base de données et de lui
 fournir un jeu de données de tests. ::
 
-    $ cd easytimetable/
+    $ cd easytimetable/easytimetable/
     $ python manage.py syncdb --noinput
 
 Lancer le projet

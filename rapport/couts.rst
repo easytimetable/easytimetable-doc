@@ -38,7 +38,7 @@ Vous pouvez vous référer au diagramme de GANTT pour plus d'informations
 Pour évaluer les coûts, nous évaluons à 100 euros/jour le coût d'un développeur
 en entreprise.
 
-Le développement de TIMETABLEEASY à donc eu un coût de "main d'oeuvre", de 45
+Le développement de TIMETABLEASY à donc eu un coût de "main d'oeuvre", de 45
 (jours) * 100 (€) = 4500€.
 
 
