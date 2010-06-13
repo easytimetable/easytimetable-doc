@@ -7,7 +7,7 @@ TIMETABLEASY
 Élève ? Professeur ? Université ? Vous êtes sûrement à la recherche d'une 
 solution simple et performante pour gérer vos planning !  
 
-TimeTableEasy vous propose une solution qui se situe aux limites de la gestion
+TimeTablEasy vous propose une solution qui se situe aux limites de la gestion
 de planning et de la gestion des contenus pédagogiques, pour une
 intégration parfaite. 
 
@@ -42,7 +42,7 @@ Adapté à vos futures idées
 Vous souhaitez essayer ?
 ========================
 
-Ne perdez pas une minute de plus, et essayez EasyTimeTable sur notre
+Ne perdez pas une minute de plus, et essayez TimeTablEasy sur notre
 plateforme de test : http://easy.notmyidea.org !
 
 Nos tarif : Adaptés à vos contraintes
