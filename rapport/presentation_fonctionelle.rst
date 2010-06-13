@@ -22,7 +22,7 @@ depuis tous les navigateurs permet à un nombre illimité d'utilisateurs
 de visualiser et d'éditer en fonction de leur rôles les évènements qui 
 les concernent sur leur calendrier.
 
-TIMETABLEEASY permet également la gestion avancée des personnes, des lieux ainsi
+TIMETABLEASY permet également la gestion avancée des personnes, des lieux ainsi
 que des évènements rattachés à la gestion pédagogique.
 
 Besoins / Liste des Fonctionnalités :
