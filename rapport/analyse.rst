@@ -35,7 +35,7 @@ termes, il est possible de se concentrer sur la modélisation de nos objets, et
 le stockage de ceux-ci dans une base de données (relationnelle ou non) est
 automatiquement géré par le framework.
 
-Il est bien évidemment possible de choisir une base de donnée particulière en
+Il est bien évidemment possible de choisir une base de données particulière en
 fonction des besoins, mais il ne semblait pas y en avoir ici, donc c'est un
 point que nous laissons à l'appréciation du client. Les solutions techniques
 existent et sont très facilement exploitables.
@@ -83,7 +83,7 @@ Le motif MVT, pour Model, Vue, Template, est très proche du modèle mieux connu
 couches comme suit:
 
     * Modèle : Accès à la persistance des données. Ce sont les modèles qui se
-      chargent de la relation base de donnée avec le monde objet (ORM), et qui
+      chargent de la relation base de données avec le monde objet (ORM), et qui
       idéalement (cela diffère selon les versions), s'occupent de la validation
       des données.
 
@@ -100,7 +100,7 @@ Le motif, *MVT* garde la même définition du modèle, mais il est nécessaire d
 comprendre les différences de notions de vues et de templates:
 
     * Les Vues remplacent ici complètement les contrôleurs (MVC), et prennent
-      également une partie des responsabilité des vues MVC. Ce sont elles qui
+      également une partie des responsabilités des vues MVC. Ce sont elles qui
       passent les informations aux templates.
 
     * Les templates sont des modèles d'affichage pour du HTML, qui est quasiment
