@@ -1,16 +1,16 @@
 Documentation d'administration
-#########################
+###############################
 
 Installation de la solution
 ===========================
 
 Prérequis
----------
+-----------
 
 Ci-dessous, les composants logiciels nécessaires au fonctionnement de
 l'application
 
-    * Une station unix, linux, mac ou équivalent
+    * Une station UNIX, GNU/Linux, mac ou équivalent
     * Python >= 2.5
     * nginx
     * easy_install ou pip
@@ -18,7 +18,7 @@ l'application
 
 Pour une installation en ligne
     
-    * Git
+    * git
 
 Pour une installation hors ligne
     
@@ -27,7 +27,7 @@ Pour une installation hors ligne
     * gunzip
 
 Les procédures suivantes ont été conçues pour une installation sous
-Debian GNU/Linux. Elles sont toutefois théoriquement appliquables à
+Debian GNU/Linux. Elles sont toutefois théoriquement applicables à
 tous les systèmes sur base unix, sous réserve de quelques modifications
 (notamment au niveau des chemins) et de disponibilités des dépendances.
 
@@ -66,7 +66,7 @@ En tant que root::
 	# cp config/gunicorn_srv /etc/nginx/sites-enabled/
 	# /etc/init.d/nginx restart
 	
-L'applicaton est maintenant accessible sur le port http du serveur.
+L'application est maintenant accessible sur le port HTTP du serveur.
 
 Installation pour tests
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -93,7 +93,7 @@ Pour que l'application soit accessible depuis une autre machine, la dernière li
 
 	$ python manage.py runserver 0.0.0.0:8000
 	
-L'application sera alors accessibleà l'adresse : http://<serveur>:8000/
+L'application sera alors accessible à l'adresse : http://<serveur>:8000/
 
 Installation en ligne
 ~~~~~~~~~~~~~~~~~~~~~
@@ -119,8 +119,7 @@ Cela signifie donc qu'il est possible d'avoir plusieurs versions de modules
 python d'installés sur une même machine, et qu'elles n'entrent pas en conflit.
 D'une manière générale, il est préférable d'utiliser virtualenv pour les
 projets, afin de contrôler complètement l'environnement de de production et
-ainsi d'obtenir le même environnement d'exécution sur la machine de developpement
-et sur la machine de production.
+ainsi d'obtenir le même environnement d'exécution sur la machine de développement et sur la machine de production.
 
 Ci-dessous, la commande easy_install pour installer virtualenv::
 
@@ -143,17 +142,17 @@ Puis son activation::
 
 Le `(django)` signifie que l'on utilise le virtualenv "django".
 
-Installation de django
+Installation de Django
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-L'application est basée sur le framework django, ella a donc besoin que
+L'application est basée sur le framework django, elle a a donc besoin que
 celui-ci soit installé pour fonctionner::
 
     $ easy_install django==1.1
     (django)
 
-La version 1.1 de django étant l'actuelle version stable, c'est celle
-utilisée pour ce projet.
+La version 1.1 de Django étant la version stable au moment du développement du
+projet, c'est celle-ci que nous allons installer.
 
 Dépendances du projet
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -174,10 +173,10 @@ Pour la suite de la procédure, il est nécessaire de sortir du dossier django::
 
     $ cd ..
 
-Dépot GIT
+Dépôt git
 ~~~~~~~~~~
 
-Il a été choisi d'utiliser le système de controle de version décentralisé GIT.
+Il a été choisi d'utiliser le système de contrôle de version décentralisé git.
 Le dépôt est disponible à l'adresse http://github.com/easytimetable/easytimetable.
 
 Voici la commande à utiliser pour installer le projet en utilisant ce dépôt::
@@ -204,7 +203,7 @@ fournir un jeu de données de tests. ::
 Lancer le projet
 ~~~~~~~~~~~~~~~~~
 
-Le framework django embarquant un serveur web, il est possible de lancer le projet
+Le framework Django embarquant un serveur web, il est possible de lancer le projet
 comme suit::
 
 	$ python manage.py runserver
@@ -213,10 +212,10 @@ Cependant cette fonctionnalité existe surtout à des fins de développement et 
 performances risquent de ne pas être suffisantes en cas de forte charge.
 
 Il est donc recommandé d'utiliser gunicorn, qui est un serveur d'application
-python, en association avec nginx qui lui est un serveur http très léger.
+python, en association avec nginx qui lui est un serveur HTTP très léger.
 Ce dernier servira de proxy afin que les utilisateurs n'aient pas directement
 accès au serveur d'application. Ce fonctionnement est recommandé afin d'accroître
-la sécurite.
+la sécurité.
 
 * Toujours dans l'environnement virtuel::
 
@@ -248,7 +247,7 @@ est l'option choisie dans un soucis de facilité d'installation.
 
 	# cp /config/gunicorn /etc/nginx/sites-enabled/
 	
-Ce fichier contient les paramêtres permettant à nginx de servir des applications proposées par
+Ce fichier contient les paramètres permettant à nginx de servir des applications proposées par
 gunicorn.
 
 * Redémarrer nginx::
@@ -259,7 +258,7 @@ Le redémarrage de nginx n'est pas obligatoire (un reload peut être suffisant),
 redémarrage est le moyen le plus sûr pour que le serveur prenne bien en compte les
 nouveaux paramètres, ainsi que leur bonne configuration
 
-L'applicaton est maintenant accessible sur le port http (80) du serveur.
+L'applicaton est maintenant accessible sur le port HTTP (80) du serveur.
 
 Administration de la solution
 ==============================
