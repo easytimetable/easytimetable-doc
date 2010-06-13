@@ -7,7 +7,7 @@ TIMETABLEASY
 Élève ? Professeur ? Université ? Vous êtes sûrement à la recherche d'une 
 solution simple et performante pour gérer vos planning !  
 
-TimeTableEasy vous propose une solution qui se situe aux limites de la gestion
+TIMETABLEASY vous propose une solution qui se situe aux limites de la gestion
 de planning et de la gestion des contenus pédagogiques, pour une
 intégration parfaite. 
 
