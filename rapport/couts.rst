@@ -38,7 +38,7 @@ Vous pouvez vous référer au diagramme de GANTT pour plus d'informations
 Pour évaluer les coûts, nous évaluons à 100 euros/jour le coût d'un développeur
 en entreprise.
 
-Le développement de TIMETABLEEASY à donc eu un coût de "main d'oeuvre", de 40
+Le développement de TIMETABLEASY à donc eu un coût de "main d'oeuvre", de 40
 (jours) * 100 (€) = 4300€.
 
 
@@ -46,13 +46,13 @@ Investissement Logiciel :
 -------------------------
 
 Nous nous sommes appuyé uniquement sur des outils open source pour la 
-réalisation de TIMETABLEEASY, ce qui fixe le coût des licences à 0.
+réalisation de TIMETABLEASY, ce qui fixe le coût des licences à 0.
 
 Il est en revanche nécessaire de prendre en compte le prix des serveurs utilisés
 pour déployer la solution.
 
 
-Étude de la concurrence et fixation d'un prix pour TIMETABLEEASY:
+Étude de la concurrence et fixation d'un prix pour TIMETABLEASY:
 -----------------------------------------------------------------
 
 Le premier concurrent à notre logiciel est hyperplanning.
