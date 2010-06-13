@@ -4,7 +4,7 @@ Choix techniques
 Pour la réalisation de ce projet, nous nous appuyons sur la stabilité et 
 les possibilités offertes par les logiciels libres.
 
-"TimeTableEasy" étant particulièrement spécifique, afin d'accroître notre 
+"TimeTablEasy" étant particulièrement spécifique, afin d'accroître notre 
 vitesse de développement, nous avons choisi de nous appuyer sur des composants 
 déjà existants, ainsi que sur des frameworks.
 
