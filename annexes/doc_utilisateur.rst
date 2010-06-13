@@ -28,7 +28,7 @@ les champs qui apparaissent à l'écran.
 Lister et afficher les universités, les campus et les lieux
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-EasyTimeTable permet de visualiser les différents lieux, d'une manière
+TimeTablEasy permet de visualiser les différents lieux, d'une manière
 similaire. Il suffit pour cela d'utiliser le menu qui se situe en haut à droite
 de chaque page, puis de sélectionner l'élément souhaité.
 

@@ -42,7 +42,7 @@ Adapté à vos futures idées
 Vous souhaitez essayer ?
 ========================
 
-Ne perdez pas une minute de plus, et essayez EasyTimeTable sur notre
+Ne perdez pas une minute de plus, et essayez TimeTablEasy sur notre
 plateforme de test : http://easy.notmyidea.org !
 
 Nos tarif : Adaptés à vos contraintes
