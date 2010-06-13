@@ -16,7 +16,7 @@ accumulée de milliers de développeurs et d'utilisateurs à travers le monde,
 mais aussi de l'appui d'une communauté extrêmement active.
 
 Afin de bien pouvoir comprendre nos choix techniques, nous allons vous présenter nos choix par rapport à la liste des fonctionnalités que nous proposons dans
-TIMETABLEEASY:
+TIMETABLEASY:
 
 - Dans le cas de la gestion des utilisateurs nous avons utilisé 
   django.contrib.auth (module du framework Django s'occupant de 
